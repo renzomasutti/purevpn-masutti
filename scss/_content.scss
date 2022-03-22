@@ -1,0 +1,170 @@
+body{
+    /*modificaciones generales*/
+    margin-top: 77px;
+    h1{
+        text-align: $pos;
+        font-size: $titlesize;
+        font-family: $fprincipal;
+    }
+    h2{
+        @include mtop-aleft;
+        font-family: $fprincipal;
+        font-size: 28px;
+    }
+    p{
+        @include mtop-aleft;
+        font-family: $fsecundaria;
+        font-size: 20px;
+    }
+    .btn-lg{
+        text-align: $pos; 
+        display: inline-block;
+        color: $colorsec;
+        background-color: $colorbut;
+        font-family: $fprincipal;;
+    }
+    .btn-lg:hover{
+        text-decoration: none;
+        color: $colorpr;
+    }
+    .row-bg{
+        background-color:  $colorpr;
+    }
+    /*index*/
+    .cont-01{
+        text-align: $pos; 
+        h1{
+            margin: 50px 0px 50px 0px;
+            color: $colorsec;
+        }
+        h2{
+            text-align: $pos; 
+            margin-bottom: 50px;
+            font-size: 20px;
+            color: $colorsec;
+        }
+        p{
+            text-align: $pos; 
+            margin-top: 10px;
+            margin-bottom: 50px;
+            padding: 10px;
+            font-size: 13px;
+            color: $colorsec;
+        }
+    }
+    .me-3{
+        margin-right: 1rem;
+    }
+    .feat-col{
+        margin-top: 1.5rem;
+    }
+    .feat-col:hover {
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+    /*modificaciones caracteristicas*/    
+    .specs{
+        text-align: $pos; 
+        i{
+            margin: auto;
+            font-size: 18em;
+            color:  $colorbut;
+        }
+    }
+    .cont-04{
+        margin-bottom: map-get($container,margbottmpr);
+        h1{
+            margin: map-get($container,marginh1);
+        }
+        h2{
+            margin-bottom: map-get($container,margbottsc);
+            font-size: 25px;
+            text-align: map-get($container,talign);
+        }
+    }
+    /*modificaciones planes*/        
+    .cont-05{
+        margin-bottom: map-get($container,margbottmpr);
+        h1{
+            margin: map-get($container,marginh1);
+        }
+        p{
+            margin-bottom: map-get($container,margbottsc);
+            font-size: 20px;
+            text-align: map-get($container,talign);
+        }
+    }
+    .card-header{
+        p{
+            background-color:  $colorpr;
+            margin: 10px;
+            text-align: $pos; 
+            color: $colorsec;
+        }
+    }
+    .cont-06{
+        margin: auto;
+        ul{
+            list-style: none;
+            li{
+                font-family: $fsecundaria;
+                font-size: 16px;
+                i{
+                    color:$colorbut;
+                }
+            }
+        }
+    }
+    /*modificaciones nosotros*/    
+    .row-bg-nos{
+        background-image: url("../assets/img/office.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .nos-h{
+        text-align: $pos;
+        color: $colorsec;
+        padding: 64px 0px 64px 0px;
+    }
+    .cont-03{
+        h2{
+            text-align: $pos; 
+        }
+        p{
+            text-align: $pos; 
+        }
+    }
+    .multi{
+        padding: 0px;
+        img{
+            width: 330px;
+            height: auto;
+        }
+    }
+    /*modificaciones contacto*/    
+    .form-h{
+        margin-top: 60px;
+        p{
+            text-align: $pos; 
+        }
+    }
+    form{
+        text-align: $pos; 
+        margin: 10px;
+    }
+    .form-f{
+        margin-top: 60px;
+        padding: 40px;
+        text-align: $pos; 
+        h5{
+            text-align: $pos; 
+        }
+        p{
+            text-align: $pos; 
+        }
+        button{
+            width: 200px;
+            margin: 15px;
+        }
+    }
+}    

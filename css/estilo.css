@@ -1,0 +1,186 @@
+nav {
+  background-color: #043340; }
+
+#navbarNavAltMarkup {
+  justify-content: right; }
+
+.navbar-nav a {
+  color: white; }
+
+body {
+  /*modificaciones generales*/
+  margin-top: 77px;
+  /*index*/
+  /*modificaciones caracteristicas*/
+  /*modificaciones planes*/
+  /*modificaciones nosotros*/
+  /*modificaciones contacto*/ }
+  body h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif; }
+  body h2 {
+    margin-top: 40px;
+    text-align: left;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-size: 28px; }
+  body p {
+    margin-top: 40px;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px; }
+  body .btn-lg {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #0DC5B9;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif; }
+  body .btn-lg:hover {
+    text-decoration: none;
+    color: #043340; }
+  body .row-bg {
+    background-color: #043340; }
+  body .cont-01 {
+    text-align: center; }
+    body .cont-01 h1 {
+      margin: 50px 0px 50px 0px;
+      color: white; }
+    body .cont-01 h2 {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 20px;
+      color: white; }
+    body .cont-01 p {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      padding: 10px;
+      font-size: 13px;
+      color: white; }
+  body .me-3 {
+    margin-right: 1rem; }
+  body .feat-col {
+    margin-top: 1.5rem; }
+  body .feat-col:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2); }
+  body .specs {
+    text-align: center; }
+    body .specs i {
+      margin: auto;
+      font-size: 18em;
+      color: #0DC5B9; }
+  body .cont-04 {
+    margin-bottom: 60px; }
+    body .cont-04 h1 {
+      margin: 80px 0px 35px 0px; }
+    body .cont-04 h2 {
+      margin-bottom: 30px;
+      font-size: 25px;
+      text-align: center; }
+  body .cont-05 {
+    margin-bottom: 60px; }
+    body .cont-05 h1 {
+      margin: 80px 0px 35px 0px; }
+    body .cont-05 p {
+      margin-bottom: 30px;
+      font-size: 20px;
+      text-align: center; }
+  body .card-header p {
+    background-color: #043340;
+    margin: 10px;
+    text-align: center;
+    color: white; }
+  body .cont-06 {
+    margin: auto; }
+    body .cont-06 ul {
+      list-style: none; }
+      body .cont-06 ul li {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px; }
+        body .cont-06 ul li i {
+          color: #0DC5B9; }
+  body .row-bg-nos {
+    background-image: url("../assets/img/office.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
+  body .nos-h {
+    text-align: center;
+    color: white;
+    padding: 64px 0px 64px 0px; }
+  body .cont-03 h2 {
+    text-align: center; }
+  body .cont-03 p {
+    text-align: center; }
+  body .multi {
+    padding: 0px; }
+    body .multi img {
+      width: 330px;
+      height: auto; }
+  body .form-h {
+    margin-top: 60px; }
+    body .form-h p {
+      text-align: center; }
+  body form {
+    text-align: center;
+    margin: 10px; }
+  body .form-f {
+    margin-top: 60px;
+    padding: 40px;
+    text-align: center; }
+    body .form-f h5 {
+      text-align: center; }
+    body .form-f p {
+      text-align: center; }
+    body .form-f button {
+      width: 200px;
+      margin: 15px; }
+
+.cont-foot {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  background-color: #043340; }
+  .cont-foot ul li {
+    padding: 10px; }
+
+@media screen and (min-width: 800px) {
+  nav {
+    font-size: 20px; }
+  .navbar-brand {
+    margin-left: 250px; }
+  .navbar-nav {
+    margin-right: 250px; }
+  .row {
+    align-items: center; }
+  p {
+    margin: 30px 0px 0px 0px;
+    text-align: left;
+    font-size: 20px; }
+  .btn-lg {
+    font-size: 30px; }
+  .cont-01 h1 {
+    margin-top: 80px;
+    font-size: 90px; }
+  .cont-01 h2 {
+    font-size: 25px; }
+  .cont-01 p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 200px; }
+  #office {
+    width: 444px;
+    height: 444px;
+    object-fit: cover; }
+  .cont-03 {
+    margin: 50px 0px 50px 0px;
+    padding: 20px; }
+    .cont-03 h2 {
+      margin: 40px; }
+    .cont-03 p {
+      margin: 20px; }
+  form .form-group {
+    margin: auto;
+    width: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px; } }
