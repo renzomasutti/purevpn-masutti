@@ -119,7 +119,8 @@ body {
       height: auto; }
 
 /**************************************/
-/****¡IMPORTANTE! CSS PURO SIN METODOLOGIA DE SASS***/
+/****¡IMPORTANTE! CSS NATIVO SIN METODOLOGIA DE SASS***/
+/**** SOLO VARIABLES APLICADAS ****/
 /**************************************/
 /****CONTACTO.html****/
 /*grid area*/
@@ -175,14 +176,14 @@ body {
   margin-top: 10px;
   display: inline-block;
   font-size: 13px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   padding: 5px; }
 
 /*content*/
 .main-c h1 {
   font-size: 55px;
   text-align: center;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif; }
+  font-family: "IBM Plex Sans Thai Looped", sans-serif; }
 
 .main-c p {
   text-align: center; }
@@ -193,7 +194,7 @@ body {
   align-items: center;
   margin-top: 20px;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 15px; }
 
 .form__container input {
@@ -232,7 +233,7 @@ body {
   padding: 10px; }
 
 .help h3 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif; }
+  font-family: "IBM Plex Sans Thai Looped", sans-serif; }
 
 /*footer*/
 .footer-c {
@@ -240,12 +241,12 @@ body {
   background-color: #043340;
   display: flex;
   color: white;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   padding: 10px; }
 
 .footer-c p {
   margin: 15px 0px 15px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 15px; }
 
 .footer-c ul {
@@ -292,7 +293,7 @@ body {
     margin: 10px;
     display: inline-block;
     font-size: 18px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     padding: 5px; }
   /*content*/
   .main-c {

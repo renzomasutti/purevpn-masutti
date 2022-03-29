@@ -1,5 +1,6 @@
 /**************************************/
-/****¡IMPORTANTE! CSS PURO SIN METODOLOGIA DE SASS***/
+/****¡IMPORTANTE! CSS NATIVO SIN METODOLOGIA DE SASS***/
+/**** SOLO VARIABLES APLICADAS ****/
 /**************************************/
 /****CONTACTO.html****/
 /*grid area*/
@@ -21,21 +22,21 @@
 .footer-c{
     grid-area: footer-c;
 }
+
 .body-c{
-    text-align: center;
+    text-align: $pos;
     margin: 0;
     padding: 0;
 }
-
 /*header*/
 .header-c{
     margin-top: 50px;
-    background-color:  #043340;
+    background-color:  $colorpr;
 }
 .nav-c{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: $pos;
+    justify-content: $pos;
     position: fixed;
     top: 0;
     width: 100%;
@@ -47,49 +48,49 @@
 }
 .a-c{
     text-decoration: none;
-    color: white;
+    color: $colorsec;
 }
 .menu__lista{
     padding: 0px;
     height: 100%;
-    text-align: center;
+    text-align: $pos;
     list-style: none;
 }
 .menu__elemento{
     margin-top: 10px;
     display: inline-block;
     font-size: 13px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: $fterciaria;
     padding: 5px;
 }
 
 /*content*/
 .main-c h1{
-    font-size: 55px;
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: $titlesize;
+    text-align: $pos;
+    font-family: $fprincipal;
 }
 .main-c p{
-    text-align: center;
+    text-align: $pos;
 }
 .form__container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: $pos;
     margin-top: 20px;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
+    text-align: $pos;
+    font-family: $fsecundaria;
     font-size: 15px;
 }
 .form__container input{
     padding: 8px;
     outline: none;
-    border:solid 1px gray;
+    border:solid 1px $colorter;
     border-radius: 5px;
     margin-bottom: 15px;
 }
 .form__container input::placeholder{
-    color: gray;
+    color: $colorter;
     padding:5px;  
 }
 .form__container label{
@@ -99,14 +100,14 @@
 .form__container textarea{
     margin-top: 20px;
     outline: none;
-    border: solid 1px gray;
+    border: solid 1px $colorter;
     border-radius: 5px;
     resize: none;
 }        
 .boton{
-    background-color: #0DC5B9;
+    background-color: $colorbut;
     border: none;
-    color: white;
+    color: $colorsec;
     padding: 6px 12px;
     text-decoration: none;
     margin-top: 20px;
@@ -117,21 +118,21 @@
     padding: 10px;
 }
 .help h3{
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: $fprincipal;
 }
 
 /*footer*/
 .footer-c{
-    align-items: center;
-    background-color:  #043340;
+    align-items: $pos;
+    background-color:  $colorpr;
     display: flex;
-    color: white;
-    font-family: 'Noto Sans', sans-serif;
+    color: $colorsec;
+    font-family: $fterciaria;
     padding: 10px;
 }
 .footer-c p{
     margin: 15px 0px 15px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: $fterciaria;
     font-size: 15px;
 }
 .footer-c ul{
@@ -143,7 +144,7 @@
 }   
 .footer-c a{
     text-decoration: none;
-    color: white;
+    color: $colorsec;
 }
 
 /***************/
@@ -179,14 +180,14 @@
     .menu__lista{
         margin-left: 500px;
         height: 100%;
-        text-align: center;
+        text-align: $pos;
         list-style: none;
     }
     .menu__elemento{
         margin: 10px;
         display: inline-block;
         font-size: 18px;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: $fterciaria;
         padding: 5px;
     }
 
