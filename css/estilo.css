@@ -14,8 +14,7 @@ body {
   /*index*/
   /*modificaciones caracteristicas*/
   /*modificaciones planes*/
-  /*modificaciones nosotros*/
-  /*modificaciones contacto*/ }
+  /*modificaciones nosotros*/ }
   body h1 {
     text-align: center;
     font-size: 55px;
@@ -118,24 +117,6 @@ body {
     body .multi img {
       width: 330px;
       height: auto; }
-  body .form-h {
-    margin-top: 60px; }
-    body .form-h p {
-      text-align: center; }
-  body form {
-    text-align: center;
-    margin: 10px; }
-  body .form-f {
-    margin-top: 60px;
-    padding: 40px;
-    text-align: center; }
-    body .form-f h5 {
-      text-align: center; }
-    body .form-f p {
-      text-align: center; }
-    body .form-f button {
-      width: 200px;
-      margin: 15px; }
 
 /**************************************/
 /****¡IMPORTANTE! CSS PURO SIN METODOLOGIA DE SASS***/
@@ -370,9 +351,4 @@ body {
     .cont-03 h2 {
       margin: 40px; }
     .cont-03 p {
-      margin: 20px; }
-  form .form-group {
-    margin: auto;
-    width: 35%;
-    margin-top: 30px;
-    margin-bottom: 30px; } }
+      margin: 20px; } }

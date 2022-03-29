@@ -141,30 +141,4 @@ body{
             height: auto;
         }
     }
-    /*modificaciones contacto*/    
-    .form-h{
-        margin-top: 60px;
-        p{
-            text-align: $pos; 
-        }
-    }
-    form{
-        text-align: $pos; 
-        margin: 10px;
-    }
-    .form-f{
-        margin-top: 60px;
-        padding: 40px;
-        text-align: $pos; 
-        h5{
-            text-align: $pos; 
-        }
-        p{
-            text-align: $pos; 
-        }
-        button{
-            width: 200px;
-            margin: 15px;
-        }
-    }
 }    
