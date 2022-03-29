@@ -4,111 +4,91 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="PureVPN es uno de los VPN mas grande del mercado. Ingresa y conoce más.">
+    <meta name="keywords" content="VPN, CONEXIONES, SEGURIDAD, DATOS, DISPOSITIVOS, INCOGNITO, PRIVACIDAD">
     <!--favicon-->
     <link rel="shortcut icon" href="../assets/img/favicon.png">
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@600&family=IBM+Plex+Sans+Thai+Looped:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
-    <!--animate-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!-- Bootstrap, CSS, Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/ed80c93c46.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Contacto</title>
 </head>
-<body>
+<body class="body-c">
+  <!--inicio grid-->    
+  <div id="grid-contacto">
     <!--inicio encabezado-->
-    <header>
-        <!--inicio nav-->    
-        <!--Navbar-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="../index.html">Inicio</a>
-                    <a class="nav-item nav-link" href="caracteristicas.html">Caracteristicas</a>
-                    <a class="nav-item nav-link" href="planes.html">Planes</a>
-                    <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
-                    <a class="nav-item nav-link active" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
-                </div>
-            </div>
-        </nav>
-        <!--/Navbar-->
+    <header class="header-c">            
+      <!--inicio nav-->    
+      <nav class="nav-c">
+        <a class="a-c" href="../index.html"><img class="header__img" src="../assets/img/logo.png" alt="logo"></a> 
+        <ul class="menu__lista">
+          <li class="menu__elemento"><a class="a-c" href="../index.html">Inicio</a></li>
+          <li class="menu__elemento"><a class="a-c" href="caracteristicas.html">Características</a></li>
+          <li class="menu__elemento"><a class="a-c" href="planes.html">Planes</a></li>
+          <li class="menu__elemento"><a class="a-c" href="nosotros.html">Nosotros</a></li>
+          <li class="menu__elemento"><a class="a-c" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    <!--cierre nav-->
     </header>
-    <!--cierre encabezado-->
-    <!--inicio content-->
-    <main>
-    <!--inicio content-->
-    <!--inicio form-->
-    <div class="container-fluid">
-      <div class="row">
-          <div class="col-12 form-h">
-            <h1>Contáctanos</h1>
-            <p>Póngase en contacto y díganos cómo podemos ayudarle.<p>
-            <form>
-              <div class="form-group">
-                <label for="nombre">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
-              </div>
-              <div class="form-group">
-                <label for="apellido">Apellido</label>
-                <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
-              </div>
-              <div class="form-group">
-                <label for="pais">País</label>
-                <input type="text" class="form-control" id="pais" placeholder="País" required>
-              </div>
-              <div class="form-group">
-                <label for="numero">Teléfono</label>
-                <input type="number" class="form-control" id="numero" placeholder="Teléfono" required>
-              </div>
-              <div class="form-group">
-                <label for="mail">Correo electrónico</label>
-                <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
-                <small id="emailHelp" class="form-text text-muted">Nunca compartimos tu correo con terceros.</small>
-              </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-        </div>
+    <!--cierre encabezado--> 
+    <!--inicio contenido-->   
+    <main class="main-c">
+      <div>
+        <h1>Contáctanos</h1>
+        <p>Póngase en contacto y díganos cómo podemos ayudarle.</p>
+        <!--inicio formulario-->
+        <form class="form__container" action="#">
+          <div class="grupo">
+            <label for="nombre"><strong>Nombre</strong></label><br>
+            <input type="text" name="nombre" id="" placeholder="Nombre">
+          </div>
+          <div class="grupo">
+            <label for="apellido"><strong>Apellido</strong></label><br>
+            <input type="text" name="apellido" id="" placeholder="Apellido">
+          </div>  
+          <div class="grupo">
+            <label for="num"><strong>Teléfono</strong></label><br>
+            <input type="number" name="num" id="" required placeholder="Teléfono">
+          </div>
+          <div class="grupo">
+            <label for="mail"><strong>Correo*</strong></label><br>
+            <input type="email" name="mail" id="" required placeholder="Correo"><br>
+            <small>*Nunca compartimos tus correos con terceros</small>
+          </div>  
+          <textarea name="" id="" cols="30" rows="10" placeholder="Deje su consulta.."></textarea><br>
+          <input class="boton" type="submit" value="Enviar">
+        </form>
+        <!--cierre formulario-->
       </div>
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-12 col-md-4 form-f shadow-lg">
-          <h5>¿Necesita ayuda?</h5>
-          <p>Visite nuestro Centro de ayuda o contacte con Atención al cliente directamente.</p>
-          <button class="btn btn-primary">Centro de Ayuda</button>
-          <button class="btn btn-primary">Chat en vivo</button>
-        </div> 
-      </div>   
-    </div>        
-    <!--cierre form-->     
-    </main>
-    <!--cierre content-->
-    <!--inicio footer--> 
-    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 cont-foot">
-      <div class="col-md-4 d-flex align-items-center">
-        <span class="text-muted">© 2021 PureVPN. Todos los derechos reservados.</span>
+      <div class="help">
+        <h3>¿Necesitas ayuda?</h3>
+        <p>Visite nuestro Centro de ayuda o contacte con Atención al cliente directamente.</p>
+        <input class="boton" type="submit" value="Centro de Ayuda">
+        <input class="boton" type="submit" value="Chat en Vivo">
+      </div>
+    </main>    
+    <!--cierre contenido-->        
+    <!--inicio footer-->
+    <footer class="footer-c">
+      <div>
+        <p>© 2021 PureVPN. Todos los derechos reservados.</p>
       </div>
       <!--redes-->
-      <ul class="col-md-4 justify-content-center list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-youtube"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-linkedin"></i></a></li>
+      <ul>
+        <li><a href="https://twitter.com/?lang=es">Twitter</a></li>
+        <li><a href="https://es-la.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.instagram.com/renzomasutti/">Instagram</a></li>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+        <li><a href="https://ar.linkedin.com/">Linkedin</a></li>
       </ul>
     </footer>
-    <!--cierre footer-->        
-    <!--jQuery and Bootstrap Bundle (includes Popper)-->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!--cierre footer-->
+  </div>
+  <!--cierre grilla--> 
 </body>
 </html>

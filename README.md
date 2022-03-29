@@ -1,1 +1,5 @@
-Verison 1.0 PureVPN
+Version 1.1 PureVPN
+
+Renzo Masutti
+
+renzomasutti@hotmail.com
